@@ -1,0 +1,99 @@
+body{
+    background-image: url(/images/back.jpg);
+     background-color: rgb(36, 36, 57);
+     color: rgb(11, 46, 77);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.img{
+    opacity: .6;
+   
+}
+#menu{
+    text-decoration:none;
+    vertical-align:baseline ;
+
+}
+
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    
+}
+#menu li:last-child{
+    
+    
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(249, 244, 247);
+    display:inline;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+#menu ul li a:hover{
+    color: blue;
+}
+#menu ul li ul{
+    position: absolute;
+    left:-999999px;
+    background-color: rgb(66, 85, 29);
+}
+#menu ul li:hover ul{
+    left:0;
+}
+#menu ul li ul li{
+ float:none;
+ border-right:none ;
+ border-bottom: 1px;
+}
+
+.notice{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 27, 27);
+    opacity: .6;
+}
+
+.nurul
+{  
+    float: left; 
+    width: 20%; 
+    height: 326px;
+    background-color:rgb(53, 48, 39);
+    color: aliceblue;
+}
+.nuruldep
+{ 
+    background-color: rgb(133, 128, 119);
+    float: right;
+    height: auto;
+    width: 80%;
+    opacity: .6;
+    color: aliceblue;
+}
+.kaisarimg{
+    float: left;
+    width: 20%;
+    color: aliceblue;
+    background-color: rgb(55, 43, 43);
+    height: 363px;
+}
+.kaisardes{
+    background-color: rgb(126, 114, 98);
+    float: right;
+    width: 80%;
+    height: auto;
+    color: aliceblue;
+    opacity: .6;
+}
+.ju{
+    color: rgb(241, 239, 236);
+}
+
+
+
+

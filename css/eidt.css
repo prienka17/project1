@@ -1,0 +1,83 @@
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    height: 120px;
+    width: 120px;
+    padding: 2px 16px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    transform: translate(110%,0%);
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    top: 0;
+    transform: translate(220%,0%);
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card{
+    float: left;
+  }
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    top: 100px;
+    transform: translate(0%,100%);
+  }
+  
+  .card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    top: 100px;
+    transform: translate(110%,100%);
+  }
+  
+  .card6:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card7 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    top: 100px;
+    transform: translate(220%,100%);
+  }
+  
+  .card7:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }

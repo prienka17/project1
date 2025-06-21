@@ -1,0 +1,50 @@
+body{
+  color:rgb(197, 176, 41)
+}
+
+
+.result{
+    background-color: azure;
+}
+.first{
+    background-color: rgb(249, 249, 249);
+    float: left;
+    height:max-content;
+    width: 40%;
+    opacity: .9;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(103, 72, 10);}
+    50%  {background-color: rgb(70, 17, 139);}
+    100% {background-color: rgb(174, 170, 111);}
+  }
+   .first a{ animation-name: example;
+    animation-duration: 4s;
+    opacity: .6;
+  }
+  .first p{
+    border-bottom: 2px solid var(--blue);
+    font-size: 20px;
+ 
+}
+
+.second{
+    background-color: aliceblue;
+    float: right;
+    width: 40%;
+    opacity: .6;
+    color: rgb(10, 16, 16);
+}
+:root {
+    --blue: #1e90ff;
+    --white: #5e1313;
+  }
+ .second p {
+    font-size: 30px;
+    border-bottom: 2px solid var(--blue);
+  }
+  .second a {
+    font-size: 20px;
+  }
+ 
